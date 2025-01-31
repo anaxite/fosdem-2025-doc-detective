@@ -1,7 +1,8 @@
 {
-  "name": "fosdem-doc-detective",
+  "name": "fosdem-2025-doc-detective",
   "version": "1.0.0",
-  "description": "FOSDEM presentation for Doc Detective",
+  "private": "true",
+  "description": "FOSDEM 2025 presentation for Doc Detective",
   "scripts": {
     "demo-0": "doc-detective runTests --input catfacts.json",
     "demo-1": "doc-detective runTests --input doc-content-inline-tests.md",
@@ -9,8 +10,8 @@
     "demo-3": "doc-detective runTests --input kitten-search-inline.md"
   },
   "author": "Ariel Kaiser",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "dependencies": {
-    "doc-detective": "^2.18.0"
+    "doc-detective": "2.18.0"
   }
 }
