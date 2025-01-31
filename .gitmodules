@@ -1,0 +1,3 @@
+[submodule "doc-detective"]
+	path = doc-detective
+	url = https://github.com/doc-detective/doc-detective
