@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "steps": [
+        {
+          "action": "httpRequest",
+          "url": "https://catfact.ninja/fact",
+          "statusCodes": [200],
+          "method": "get",
+          "timeout": "10000"
+        }
+      ]
+    }
+  ]
+}

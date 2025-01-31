@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "FOSDEM presentation for Doc Detective",
   "scripts": {
-    "demo-0": "",
-    "demo-1": "",
-    "demo-2": "",
-    "demo-3": "",
+    "demo-0": "doc-detective runTests --input catfacts.json",
+    "demo-1": "doc-detective runTests --input doc-content-inline-tests.md",
+    "demo-2": "doc-detective runTests --input doc-content-detect.md",
+    "demo-3": "doc-detective runTests --input kitten-search-inline.md"
   },
   "author": "Ariel Kaiser",
   "license": "CC0-1.0",
