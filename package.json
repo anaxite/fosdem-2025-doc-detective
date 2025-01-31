@@ -1,0 +1,16 @@
+{
+  "name": "fosdem-doc-detective",
+  "version": "1.0.0",
+  "description": "FOSDEM presentation for Doc Detective",
+  "scripts": {
+    "demo-0": "",
+    "demo-1": "",
+    "demo-2": "",
+    "demo-3": "",
+  },
+  "author": "Ariel Kaiser",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "doc-detective": "^2.18.0"
+  }
+}
